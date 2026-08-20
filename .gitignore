@@ -1,15 +1,12 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
+# Virtual environments & python caches
 venv/
 .venv/
 env/
 ENV/
+__pycache__/
+*.py[cod]
 
-# Node modules & frontend builds
+# Node modules & build output
 node_modules/
 frontend/node_modules/
 frontend/dist/
@@ -18,17 +15,18 @@ dist/
 # Environment variables & secrets
 .env
 .env.local
+backend/.env
 !.env.example
+!backend/.env.example
 
-# Vector Store persistence
+# Vector Store persistence & data
 chroma_db/
-
-# Uploads & local data
+backend/chroma_db/
 data/
 *.pdf
 *.txt
 
-# IDE & system metadata
+# IDE & system files
 .vscode/
 .idea/
 .DS_Store

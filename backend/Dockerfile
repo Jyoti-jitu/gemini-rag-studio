@@ -1,7 +1,6 @@
 # FastAPI Backend Dockerfile
 FROM python:3.10-slim
 
-# Set working directory
 WORKDIR /app
 
 # Install system dependencies
