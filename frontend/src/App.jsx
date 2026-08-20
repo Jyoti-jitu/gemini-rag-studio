@@ -18,7 +18,6 @@ import {
   ChevronRight,
   ChevronDown,
   Loader2,
-  KeyAlert,
   FileCode,
   Info
 } from 'lucide-react';
