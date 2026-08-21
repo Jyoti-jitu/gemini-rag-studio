@@ -25,6 +25,9 @@ backend/chroma_db/
 data/
 *.pdf
 *.txt
+!requirements.txt
+!**/requirements.txt
+
 
 # IDE & system files
 .vscode/
